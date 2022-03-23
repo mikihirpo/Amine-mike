@@ -1,5 +1,5 @@
 /** global element styling **/
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import 'https://fonts.googleapis.com/css?family=Lato:400,700';
 
 * {
@@ -53,14 +53,19 @@ a {
 header {
   position: fixed;
   top: 0;
+  height: 120px;
   min-height: 75px;
-  padding: 0px 20px;
+  padding: 0px 35px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  background-color: #eee;
+  background-color: rgb(255, 255, 255);
 }
-
+#nav-bar{
+  font-family: 'Open Sans', sans-serif;
+  font-size: larger;
+  overflow: hidden;
+}
 @media (max-width: 600px) {
   header {
     flex-wrap: wrap;
