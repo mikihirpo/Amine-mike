@@ -2,14 +2,285 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
+    <title>Amine and Mike</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
   </head>
 
   <body>
 
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <h1>Hello World, we are software developers!</h1>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+  crossorigin="anonymous"
+/>
+<div id="page-wrapper">
+  <header id="header">
+    <div class="logo">
+      <img
+        id="header-img"
+        src=""
+        alt="Cloth shop"
+      />
+    </div>
+
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#kids">Kids</a></li>
+        <li><a class="nav-link" href="#women">Women</a></li>
+        <li><a class="nav-link" href="#men">Men</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container"></div>
+
+  <section id="hero">
+    <h2>Clothes that look good on you</h2>
+    <form class="m-4 flex">
+    	<input class="rounded-l-lg p-4 border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white" placeholder="your@mail.com"/>
+		<button class="px-8 rounded-r-lg bg-yellow-400  text-gray-800 font-bold p-4 uppercase border-yellow-500 border-t border-b border-r">Subscribe</button>
+	</form>
+  </section>
+
+  <div class="container">
+    <section id="kids">
+      <h1 class="text-4xl font-black mb-4 justify-center">Kids</h1>
+      <div class="flex items-center justify-center w-full h-full py-24 sm:py-8 px-4">
+        <!--- more free and premium Tailwind CSS components at https://tailwinduikit.com/ --->
+        <div class="w-full relative flex items-center justify-center">
+          <button aria-label="slide backward" class="absolute z-30 left-0 ml-10 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 cursor-pointer" id="prev">
+            <svg class="dark:text-gray-900" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7 1L1 7L7 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <div class="w-full h-full mx-auto overflow-x-hidden overflow-y-hidden">
+            <div id="slider" class="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700">
+              <div class="flex flex-shrink-0 relative w-full sm:w-auto">
+                <img src="https://images.unsplash.com/photo-1604467794349-0b74285de7e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8a2lkcyUyMGNsb3RoZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="black chair and white table" class="object-cover object-center w-full" />
+                <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                  <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">Catalog 1</h2>
+                  <div class="flex h-full items-end pb-6">
+                    <h3 class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">Minimal Interior</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-shrink-0 relative w-full sm:w-auto">
+                <img src="https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8a2lkcyUyMGNsb3RoZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="sitting area" class="object-cover object-center w-full" />
+                <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                  <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">Catalog 2</h2>
+                  <div class="flex h-full items-end pb-6">
+                    <h3 class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">Minimal Interior</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-shrink-0 relative w-full sm:w-auto">
+                <img src="https://images.unsplash.com/photo-1560859259-fcf2b952aed8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8a2lkcyUyMGNsb3RoZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="sitting area" class="object-cover object-center w-full" />
+                <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                  <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">Catalog 2</h2>
+                  <div class="flex h-full items-end pb-6">
+                    <h3 class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">Minimal Interior</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-shrink-0 relative w-full sm:w-auto">
+                <img src="https://images.unsplash.com/photo-1632337950445-ba446cb0e26f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGtpZHMlMjBjbG90aGVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="sitting area" class="object-cover object-center w-full" />
+                <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                  <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">Catalog 2</h2>
+                  <div class="flex h-full items-end pb-6">
+                    <h3 class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">Minimal Interior</h3>
+                  </div>
+                </div>
+              </div> <div class="flex flex-shrink-0 relative w-full sm:w-auto">
+                <img src="https://images.unsplash.com/photo-1632337950445-ba446cb0e26f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGtpZHMlMjBjbG90aGVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="sitting area" class="object-cover object-center w-full" />
+                <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                  <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">Catalog 2</h2>
+                  <div class="flex h-full items-end pb-6">
+                    <h3 class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">Minimal Interior</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-shrink-0 relative w-full sm:w-auto">
+                <img src="https://images.unsplash.com/photo-1560859259-fcf2b952aed8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8a2lkcyUyMGNsb3RoZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="black chair and white table" class="object-cover object-center w-full" />
+                <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                  <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">Catalog 2</h2>
+                  <div class="flex h-full items-end pb-6">
+                    <h3 class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">Minimal Interior</h3>
+                  </div>
+                </div>
+              </div>
+              
+              
+              
+      
+            </div>
+          </div>
+          <button aria-label="slide forward" class="absolute z-30 right-0 mr-10 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400" id="next">
+            <svg class="dark:text-gray-900" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="women">
+      <h1 class="text-4xl font-black mb-4 justify-center">Women</h1>
+      <div class="flex items-center justify-center w-full h-full py-24 sm:py-8 px-4">
+        <!--- more free and premium Tailwind CSS components at https://tailwinduikit.com/ --->
+        <div class="w-full relative flex items-center justify-center">
+          <button aria-label="slide backward" class="absolute z-30 left-0 ml-10 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 cursor-pointer" id="prev">
+            <svg class="dark:text-gray-900" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7 1L1 7L7 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <div class="w-full h-full mx-auto overflow-x-hidden overflow-y-hidden">
+            <div id="slider" class="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700">
+              <div class="flex flex-shrink-0 relative w-full sm:w-auto">
+                <img src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d29tZW4lMjBjbG90aGVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="black chair and white table" class="object-cover object-center w-full" />
+                <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                  <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">Catalog 1</h2>
+                  <div class="flex h-full items-end pb-6">
+                    <h3 class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">Minimal Interior</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-shrink-0 relative w-full sm:w-auto">
+                <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHdvbWVuJTIwY2xvdGhlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="sitting area" class="object-cover object-center w-full" />
+                <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                  <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">Catalog 2</h2>
+                  <div class="flex h-full items-end pb-6">
+                    <h3 class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">Minimal Interior</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-shrink-0 relative w-full sm:w-auto">
+                <img src="https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d29tZW4lMjBjbG90aGVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="sitting area" class="object-cover object-center w-full" />
+                <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                  <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">Catalog 2</h2>
+                  <div class="flex h-full items-end pb-6">
+                    <h3 class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">Minimal Interior</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-shrink-0 relative w-full sm:w-auto">
+                <img src="https://images.unsplash.com/photo-1632337950445-ba446cb0e26f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGtpZHMlMjBjbG90aGVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="sitting area" class="object-cover object-center w-full" />
+                <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                  <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">Catalog 2</h2>
+                  <div class="flex h-full items-end pb-6">
+                    <h3 class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">Minimal Interior</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-shrink-0 relative w-full sm:w-auto">
+                <img src="https://images.unsplash.com/photo-1560859259-fcf2b952aed8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8a2lkcyUyMGNsb3RoZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="black chair and white table" class="object-cover object-center w-full" />
+                <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                  <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">Catalog 2</h2>
+                  <div class="flex h-full items-end pb-6">
+                    <h3 class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">Minimal Interior</h3>
+                  </div>
+                </div>
+              </div>
+              
+              
+              
+      
+            </div>
+          </div>
+          <button aria-label="slide forward" class="absolute z-30 right-0 mr-10 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400" id="next">
+            <svg class="dark:text-gray-900" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+    <br/>
+    
+    <section id="men">
+      <h1 class="text-4xl font-black mb-4 justify-center">Men</h1>
+      <div class="flex items-center justify-center w-full h-full py-24 sm:py-8 px-4">
+        <!--- more free and premium Tailwind CSS components at https://tailwinduikit.com/ --->
+        <div class="w-full relative flex items-center justify-center">
+          <button aria-label="slide backward" class="absolute z-30 left-0 ml-10 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 cursor-pointer" id="prev">
+            <svg class="dark:text-gray-900" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7 1L1 7L7 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <div class="w-full h-full mx-auto overflow-x-hidden overflow-y-hidden">
+            <div id="slider" class="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700">
+              <div class="flex flex-shrink-0 relative w-full sm:w-auto">
+                <img src="https://images.unsplash.com/photo-1513373319109-eb154073eb0b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG1lbiUyMGNsb3RoZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="black chair and white table" class="object-cover object-center w-full" />
+                <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                  <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">Catalog 1</h2>
+                  <div class="flex h-full items-end pb-6">
+                    <h3 class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">Minimal Interior</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-shrink-0 relative w-full sm:w-auto">
+                <img src="https://images.unsplash.com/photo-1561053720-76cd73ff22c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bWVuJTIwY2xvdGhlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="sitting area" class="object-cover object-center w-full" />
+                <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                  <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">Catalog 2</h2>
+                  <div class="flex h-full items-end pb-6">
+                    <h3 class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">Minimal Interior</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-shrink-0 relative w-full sm:w-auto">
+                <img src="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG1lbiUyMGNsb3RoZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="sitting area" class="object-cover object-center w-full" />
+                <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                  <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">Catalog 2</h2>
+                  <div class="flex h-full items-end pb-6">
+                    <h3 class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">Minimal Interior</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-shrink-0 relative w-full sm:w-auto">
+                <img src="https://images.unsplash.com/photo-1632337950445-ba446cb0e26f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGtpZHMlMjBjbG90aGVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="sitting area" class="object-cover object-center w-full" />
+                <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                  <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">Catalog 2</h2>
+                  <div class="flex h-full items-end pb-6">
+                    <h3 class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">Minimal Interior</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-shrink-0 relative w-full sm:w-auto">
+                <img src="https://images.unsplash.com/photo-1560859259-fcf2b952aed8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8a2lkcyUyMGNsb3RoZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="black chair and white table" class="object-cover object-center w-full" />
+                <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                  <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">Catalog 2</h2>
+                  <div class="flex h-full items-end pb-6">
+                    <h3 class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">Minimal Interior</h3>
+                  </div>
+                </div>
+              </div>
+              
+              
+              
+      
+            </div>
+          </div>
+          <button aria-label="slide forward" class="absolute z-30 right-0 mr-10 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400" id="next">
+            <svg class="dark:text-gray-900" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <span>Copyright 2022, Amine and Mike</span>
+    </footer>
+  </div>
+</div>
     <!--
 
     Hello Camper!
@@ -23,5 +294,23 @@
 
     -->
     <script  src="js/index.js"></script>
+    <script>
+      let defaultTransform = 0;
+function goNext() {
+  defaultTransform = defaultTransform - 398;
+  var slider = document.getElementById("slider");
+  if (Math.abs(defaultTransform) >= slider.scrollWidth / 1.7)
+    defaultTransform = 0;
+  slider.style.transform = "translateX(" + defaultTransform + "px)";
+}
+next.addEventListener("click", goNext);
+function goPrev() {
+  var slider = document.getElementById("slider");
+  if (Math.abs(defaultTransform) === 0) defaultTransform = 0;
+  else defaultTransform = defaultTransform + 398;
+  slider.style.transform = "translateX(" + defaultTransform + "px)";
+}
+prev.addEventListener("click", goPrev);
+    </script>
   </body>
 </html>
