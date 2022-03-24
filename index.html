@@ -36,16 +36,20 @@
       </ul>
     </nav>
   </header>
-
-  <div class="container"></div>
+    <div class="container"></div>
 
   <section id="hero">
     <h2>Clothes that look good on you</h2>
-    <form class="m-4 flex">
-    	<input class="rounded-l-lg p-4 border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white" placeholder="your@mail.com"/>
-		<button class="px-8 rounded-r-lg bg-yellow-400  text-gray-800 font-bold p-4 uppercase border-yellow-500 border-t border-b border-r">Subscribe</button>
+    <form id="form" class="m-4 flex" action="https://www.freecodecamp.com/email-submit">
+    	<input name="email" id="email" type="email" class="rounded-l-lg p-4 border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white" placeholder="your@mail.com" required/>
+		<button id="submit" type="submit" value="submit" class="px-8 rounded-r-lg bg-yellow-400  text-gray-800 font-bold p-4 uppercase border-yellow-500 border-t border-b border-r">Subscribe</button>
 	</form>
   </section>
+  <div class="center">
+    <video id="video" src="./short video.mp4" controls>
+      Couldnt load the video
+    </video>
+  </div>
 
   <div class="container">
     <section id="kids">
@@ -312,5 +316,7 @@ function goPrev() {
 }
 prev.addEventListener("click", goPrev);
     </script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script  src="js/index.js"></script>
   </body>
 </html>

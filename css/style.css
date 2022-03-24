@@ -49,7 +49,6 @@ a {
 .grid {
   display: flex;
 }
-
 header {
   position: fixed;
   top: 0;
@@ -60,6 +59,12 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: rgb(255, 255, 255);
+}
+video{
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 #nav-bar{
   font-family: 'Open Sans', sans-serif;
