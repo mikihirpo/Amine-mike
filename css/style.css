@@ -61,7 +61,7 @@ header {
   background-color: rgb(255, 255, 255);
 }
 video{
-  width: 80%;
+  width: fit-content;
   display: block;
   margin-left: auto;
   margin-right: auto;
